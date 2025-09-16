@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.logo{
+    max-width: 109px;
+    height: auto;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    font-size:16px ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+:root{
+    --light-bg:#f5f5f5;
+    --primary-brown:#9B0101;
+    --secondary-red:#F4B4BD;
+    --light-brown:#553131;
+   --light-green:#F3F7FF;
+    --light-pink:#FFF5FA;
+    --light-yellow:#fbfbcdd6;
+  
+
+}
+.light-yellow{
+    background-color: var(--light-yellow);
+}
+.light-green{
+    background-color:var(--light-green);
+}
+.light-pink{
+    background-color: var(--light-pink);
+}
+.text-brown{
+    color: var(--primary-brown);
+}
+.secondary-red{
+    background-color: #F4B4BD;
+}
+.bg-light{
+    background-color: var(--light-bg) !important;
+}
+.bg-brown{
+    background-color: var(--primary-brown);
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.menu a{
+    position: relative;
+}
+.menu a::after{
+    position: absolute;
+    left: 0;
+    width:0;
+    content: '';
+    height: 1px;
+    background-color: var(--primary-brown);
+    bottom: -2px;
+    transition: .3s;
+}
+.menu a:hover::after{
+  width: 100%;
+}
+
+/* footer  */
+footer{
+    background-color: #000;
+}
+.py-10{
+   padding: 80px 0px;
+}
+.f-icon{
+    height: 72px;
+    width: 72px;
+    background-color: var(--primary-brown) !important;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px var(--primary-brown);
+}
+.fs-30{
+    font-size: 30px;
+}
+.form-check-input{
+    background-color: #565252 !important;
+}
+
+.form-check-label{
+    color: #dadada;
+}
+a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 600;
+    font-size: 14px;
+}
+.fs-14{
+    font-size: 14px;
+    font-weight: 500;
+}
+p{
+    margin-bottom: 0;
+}
+.rstnews h2{
+    font-size: 40px;
+}
+.drop-down{
+    position: relative;
+    
+}
+.drop-downhover{
+    position: absolute;
+    left: 0;
+    bottom:-180px;
+    width: 190px;
+    background-color: #FFF;
+    z-index: 99999;
+    display: none;
+    transition: .6s;
+}
+
+.drop-down-parent:hover .drop-downhover{
+    display: block;
+}
+
+.vediop p{
+    font-size: 15px ;
+    font-weight: 700;
+    color:#553131;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.vediop p:hover{
+    color: var(--primary-brown);
+}
+.para p{
+    font-size: 14px; 
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+.para h4{
+    font-size: 16px;
+    font-weight:600 ;
+    color: var(--light-brown);
+    margin-top: 8px;
+    transition: .2s;
+    cursor: pointer;
+    
+}
+.para h4:hover{
+    color:var(--primary-brown);
+  
+}
+
+
+.det h5{
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+}
+.det h5::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -3px;
+    /* width: 100%; */
+    width: 0;
+    height: 1px;
+    transition: .4s;
+    background-color: var(--primary-brown);
+
+}
+.det h5:hover::after{
+    width: 100%;
+}
+
+.list-dot{
+    padding-left: 50px;
+}
+.list-dot li{
+    list-style: disc;
+    margin-bottom: 4px;
+    
+}
+
+.vediocat-icons li{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ffff; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+    cursor: pointer;
+    
+}
+.vediocat-icons li:hover {
+ background-color: var(--primary-brown);
+ color: #fff;
+}
+.zic-zac{
+    border-bottom: 1px solid var(--primary-brown);
+}

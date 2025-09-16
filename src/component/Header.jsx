@@ -37,7 +37,7 @@ function Header() {
             </ul>
             </div>
             <li><Link to={'/rsttv'}>RSTTV</Link></li>
-            <li><Link to={'/featured'}>Featured</Link></li>
+            <li><Link to={'/featured'}>Blog</Link></li>
           </ul>
           
          <div className='d-flex gap-2'> 
